@@ -58,7 +58,7 @@
   }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #ddd !important;
+    border: 0px solid #f0f8ff !important;
   }
 }
 
@@ -89,13 +89,14 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #f0f8ff;
 }
 
 [tabindex="-1"]:focus {
@@ -242,9 +243,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-.button {
-    color: green;
-}
+
 
 a,
 area,
@@ -1330,20 +1329,20 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #f0f8ff;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 2px solid #f0f8ff;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #e9ecef;
+  border-top: 2px solid #f0f8ff;
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: #f0f8ff;
 }
 
 .table-sm th,
@@ -1366,11 +1365,11 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #e6f3ff;
 }
 
 .table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: #e6f3ff;
 }
 
 .table-primary,
@@ -1534,11 +1533,11 @@ pre code {
 }
 
 .table-inverse.table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #e6f3ff;
 }
 
 .table-inverse.table-hover tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: #e6f3ff;
 }
 
 @media (max-width: 991px) {
