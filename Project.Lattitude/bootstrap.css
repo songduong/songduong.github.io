@@ -2014,9 +2014,8 @@ fieldset[disabled] a.btn {
 
 .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #0069d9;
+  background-color: #f0f8ff;
   background-image: none;
-  border-color: #0062cc;
 }
 
 .btn-secondary {
@@ -2188,13 +2187,13 @@ fieldset[disabled] a.btn {
   border-color: #f8f9fa;
 }
 
-.btn-light-sharp:active, .btn-light-sharp.active,
-.show > .btn-light.dropdown-toggle {
-  background-color: #e2e6ea;
-  background-image: none;
-  border-color: #dae0e5;
 
-
+.btn-light-sharp:.btn-light-sharp.active,
+.show > .btn-light-sharp.dropdown-toggle {
+  color: #111;
+  background-color: #e6f3ff;
+  border-color: #e6f3ff;
+}
 
 .btn-light:hover {
   color: #111;
@@ -2589,9 +2588,6 @@ tbody.collapse.show {
   margin-left: 0.255em;
   vertical-align: 0.255em;
   content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent;
 }
 
 .dropdown-toggle:empty::after {
@@ -2619,13 +2615,13 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #f0f8ff;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #f0f8ff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border: 0px solid #f0f8ff;
+  border-radius: 0rem;
 }
 
 .dropdown-divider {
